@@ -1,84 +1,127 @@
-# ai-portfolio – Nalgar Ahmed Faheen
+# AI Portfolio – Nalgar Ahmed Faheen
 
-Premium AI Engineer portfolio platform for **Nalgar Ahmed Faheen** – Generative AI Engineer, Data Scientist, and AI/ML Engineer.
+This is my personal AI/ML portfolio showcasing projects, skills, and practical implementations in Generative AI, Machine Learning, NLP, and Data Science.
 
-Built with **Next.js 14 (App Router)**, **TypeScript**, **Tailwind CSS**, **Framer Motion**, and **Three.js**. Backend features **Next.js API routes** with placeholders for **OpenAI / Gemini**, **LangChain**, and vector DBs (FAISS / Chroma).
+Built using modern web technologies with an integrated AI chatbot that can answer questions about my work and experience.
 
-## Tech Stack
+---
 
-- **Frontend**: Next.js 14 (App Router), React 18, TypeScript, Tailwind CSS, Framer Motion
-- **3D / Graphics**: Three.js via @react-three/fiber and @react-three/drei
-- **Backend**: Next.js API routes (`pages/api`)
-- **AI Integration Placeholders**:
-  - OpenAI / Gemini via `OPENAI_API_KEY`
-  - LangChain-style RAG in `lib/rag.ts`
-  - Vector DB (FAISS / Chroma) – ready to plug in
+## 🚀 Tech Stack
 
-## Features
+Frontend:
+- Next.js 14 (App Router)
+- React 18 + TypeScript
+- Tailwind CSS
+- Framer Motion
 
-- Futuristic dark **AI system interface** with neon gradients and glassmorphism
-- **Hero** section with:
-  - Three.js neural particle background
-  - Animated typing roles (GenAI Engineer, ML Engineer, NLP Engineer, Data Scientist)
-  - CTAs: View Projects, AI Lab, GitHub, Recruiter Mode, Download Resume
-- **AI Lab** with interactive demos:
-  - Resume Analyzer (`/api/resume-analyze`)
-  - Text Summarizer (`/api/summarize`)
-  - Prompt Playground (`/api/generate`)
-  - AI Portfolio Chatbot (`/api/chatbot`, RAG placeholder)
-- **Projects**: Rainfall LSTM, NLP Pipeline Dashboard, Car Price AI Advisor, HR Analytics Dashboard
-- **Experiments**: Model comparison table (ARIMA vs LSTM) and hyperparameter snapshots
-- **Recruiter Mode**: Toggleable snapshot with top skills, best projects, quick summary, and hire button
-- **GitHub Loader**: Auto-loads repos from GitHub via `/api/github`
-- **Experience Timeline**, **Achievements**, and **Contact** section with form
-- Floating **AI Portfolio Chatbot** using RAG-style context over resume data
+3D / UI:
+- Three.js (@react-three/fiber, drei)
 
-## Getting Started
+Backend:
+- Next.js API Routes
+
+AI Integration:
+- LLM-powered chatbot (OpenRouter / Gemini)
+- Resume-based context (lightweight RAG approach)
+
+---
+
+## ✨ Features
+
+- Modern AI-themed portfolio UI (dark + glassmorphism)
+- Animated hero section with typing roles
+- Interactive project showcase
+- GitHub project integration (auto-fetch)
+- Recruiter Mode (quick summary view)
+- Downloadable resume
+- Contact form integration
+- AI Resume Chatbot:
+  - Answer questions about my projects
+  - Explain skills and experience
+  - Works using resume-based context
+
+---
+
+## 🧠 Key Projects
+
+- Short-Term Rainfall Prediction (LSTM)
+- NLP Pipeline Dashboard (TF-IDF, Word2Vec)
+- Car Price Prediction AI Advisor
+- AI Automation Workflows (n8n + LLM integrations)
+
+---
+
+## ⚙️ Getting Started
 
 ### 1. Install dependencies
 
-From the `ai-portfolio` directory:
-
-```bash
 npm install
-```
 
-### 2. Environment variables
 
-Create a `.env.local` file in the project root:
+---
 
-```bash
-OPENAI_API_KEY=YOUR_API_KEY_HERE          # optional; enables real LLM responses
+### 2. Environment Variables
+
+Create a `.env.local` file:
+
+
+OPENROUTER_API_KEY=your_api_key_here # or GEMINI_API_KEY
 NEXT_PUBLIC_GITHUB_USERNAME=AhmedFaheen
 NEXT_PUBLIC_GITHUB_URL=https://github.com/AhmedFaheen
+
 NEXT_PUBLIC_LINKEDIN_URL=https://www.linkedin.com/in/nalgar-ahmed-faheen-2a28b022a/
-```
 
-If `OPENAI_API_KEY` is not set, the AI Lab and chatbot fall back to **mock responses**, so the UI remains fully interactive.
 
-### 3. Run the development server
+---
 
-```bash
+### 3. Run development server
+
 npm run dev
-```
 
-Open `http://localhost:3000` in your browser to see the portfolio.
+
+Open:
+
+http://localhost:3000
+
+
+---
 
 ### 4. Build for production
 
-```bash
 npm run build
 npm start
-```
 
-## Deployment
 
-Recommended: **Vercel**
+---
 
-1. Push this project to GitHub.
-2. Import the repo into Vercel as a Next.js app.
-3. Set environment variables (`OPENAI_API_KEY`, `NEXT_PUBLIC_GITHUB_*`).
-4. Deploy with default build settings (`npm run build`).
+## 🌐 Deployment
 
-The portfolio is fully responsive, SEO-friendly, and optimized with lazy-loaded sections and smooth animations.
+Deployed using Vercel.
 
+Steps:
+- Push project to GitHub
+- Import into Vercel
+- Add environment variables
+- Deploy
+
+---
+
+## 📌 Note
+
+- API keys are not stored in the repository
+- All secrets are handled securely via environment variables
+
+---
+
+## 📬 Contact
+
+If you're interested in collaborating or hiring:
+
+- GitHub: https://github.com/AhmedFaheen
+- LinkedIn: https://www.linkedin.com/in/nalgar-ahmed-faheen-2a28b022a/
+
+---
+
+## 💡 About This Project
+
+This portfolio focuses on demonstrating practical AI/ML skills through real projects and an interactive AI assistant, rather than just listing technologies.
