@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-ai-bg text-slate-100 antialiased;
+  background-image: theme("backgroundImage.ai-gradient");
+  background-attachment: fixed;
+}
+
+.glass-panel {
+  @apply bg-ai-card border border-ai-border backdrop-blur-xl shadow-glass rounded-3xl;
+}
+
