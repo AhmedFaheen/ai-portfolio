@@ -27,7 +27,7 @@
 
     "plugins": [{ "name": "next" }],
 
-    "ignoreDeprecations": "latest"
+    "ignoreDeprecations": "6.0"
   },
 
   "include": [
